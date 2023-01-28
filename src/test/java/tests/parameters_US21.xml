@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter for QaulityDemy">
+
+    <test name="Parameter test">
+        <parameter name="textForTitlee" value="Cypress"></parameter>
+        <parameter name="lessonVideoTypee" value="video"></parameter>
+        <parameter name="textForVideo" value=""></parameter>
+<!--        <parameter name="" value=""></parameter>-->
+<!--        <parameter name="" value=""></parameter>-->
+<!--        <parameter name="" value=""></parameter>-->
+<!--        <parameter name="" value=""></parameter>-->
+<!--        <parameter name="" value=""></parameter>-->
+<!--        <parameter name="" value=""></parameter>-->
+
+        <classes>
+
+            <class name="tests.US_21"></class>
+
+        </classes>
+
+    </test>
+
+</suite>
